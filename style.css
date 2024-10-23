@@ -10,8 +10,14 @@ ul, ol, li{
     list-style: none;
 }
 
+html, body{
+    scroll-behavior: smooth;
+}
+
 header{
     background-color: #333;
+    position: fixed;
+    width: 100vw;
 }
 
 header nav ul {
@@ -29,4 +35,24 @@ header nav a{
 header nav a:hover {
     background-color: aquamarine;
     color: black;
+}
+
+.grupo{
+    height: 100vh ;
+}
+
+#vermelho {
+    background-color: red;
+}
+#verde{
+    background-color: greenyellow;
+}
+#azul { 
+    background-color: blue;
+}
+#amarelo {
+    background-color: yellow;
+}
+#roxo {
+    background-color: purple;
 }

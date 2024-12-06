@@ -1,0 +1,182 @@
+/* Reset básico de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #ffffff;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #170da0;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+
+/* Estilos para as seções */
+section {
+    padding: 50px 10%;
+    text-align: center;
+    margin-top: 70px; /* Para garantir que o conteúdo não fique oculto atrás do menu fixo */
+}
+
+/* Primeira seção */
+.section-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    height: 800px;
+}
+
+.section-1 .image-box {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.section-1 .image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.section-1 .text-box {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.section-1 h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section-1 p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Segunda seção */
+.section-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    height: 800px;
+}
+
+.section-2 .image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.section-2 .text-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section-2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Terceira seção */
+.section-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+    background-image: url("psgg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.section-3 .text-box {
+    width: 40%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.section-3 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Quarta seção */
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 800px;
+}
+
+.section-4 .image-box img {
+    width: 100%;
+    height: auto;
+}
+
+.section-4 .text-box {
+    width: 40%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+.section-4 h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+/* Quinta seção */
+.section-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+    background-image: url("neymar_banner_0.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+}
+
+.section-5 .image-box img {
+    width: 200%;
+    height: auto;
+    margin-left: -120px;
+
+}
